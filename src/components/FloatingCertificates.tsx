@@ -131,7 +131,7 @@ export default function FloatingCertificates() {
       </div>
 
       <div className="relative w-full max-w-6xl h-[700px] flex items-center justify-center">
-        {duplicatedCertificates.map((cert, index) => (
+        {duplicatedCertificates.map((cert) => (
           <FloatingCard 
             key={cert.id} 
             id={cert.id} 
